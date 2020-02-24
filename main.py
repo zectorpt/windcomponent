@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+#
+# Calculates the Crosswind Component based on input information by user.
+# The "Aircraft Heading" can be obtained by the number in the runway. For example, by runway 35 the Aircraft Heading should be 350.
+# The "Wind direction on METAR" can be obtained in the METAR. In the example bellow you should use "220".
+# The "Wind strength" can be obtained in the METAR. In the example bellow you should use "4".
+#
+# METAR: LPCS 241100Z 22004KT 180V250 CAVOK 18/11 Q1029
+#
+# josemedeirosdealmeida@gmail.com
+# Jose Almeida
+
 import math
 
 print("CrossWind Calculator\n")
